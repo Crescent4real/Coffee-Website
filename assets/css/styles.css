@@ -128,8 +128,43 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  transition: box-shadow .4s;
+}
 
+.nav{
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.nav__logo{
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--white-color);
+  font-family: var(--second-font);
+  transition: color .4s;
+  cursor: pointer;
+}
+
+.nav__logo:hover{
+  color: var(--first-color);
+}
+
+.nav__toggle,
+.nav__close{
+  font-size: 1.25rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
 /* Navigation for mobile devices */
 
 
