@@ -167,6 +167,35 @@ img {
 }
 /* Navigation for mobile devices */
 
+@media screen and (min-width: 1150px) {
+  .nav__menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--body-color);
+    width: 100%;
+    padding-block: 4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    transform: translateY(-100%);
+    transition: top .4s;
+  }
+  
+  .nav__list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .nav__link{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--white-color);
+    transition: color .4s;
+    margin-bottom: 1.5rem;
+  }
+}
+
 
 /* Show menu */
 
