@@ -21,7 +21,7 @@ if(navClose){
     })
 }
 
-navLink.foreach(forEach)
+navLink.foreach(n => n.addEventListener ('click', linkAction ))
 
 /*=============== REMOVE MENU MOBILE ===============*/
 
