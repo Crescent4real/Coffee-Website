@@ -302,10 +302,33 @@ img {
 
 .home__leaf{
   width: 50px;
+  right: 6rem;
+  bottom: -1rem;
+  rotate: -15deg;
+}
+
+.home__sticker{
+  position: absolute;
+  width: 50px;
+  right: .5rem;
+  top: 29rem;
+  rotate: 15deg;
+}
+
+.home__data{
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.home__description{
+  color: var(--white-color);
+  margin-bottom: 1.5rem;
 }
 
 /*=============== BUTTON ===============*/
-
+.button{
+  display: inline-block;
+}
 
 /*=============== POPULAR ===============*/
 
